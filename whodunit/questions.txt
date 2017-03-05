@@ -1,0 +1,8 @@
+0.It is a header file that stands for standard integer types. It gives the programmer the ability to store variables for use between files
+1. BYTE 8 bits, DWORD 32 bits, LONG 32 bits, WORD 16 bits
+2.
+3. 
+4.bfsize is the size of the entire bmp file while bisize is the size of only the info-header of the bmp file
+5.if bfheight is negative the format of the file is such that the info header begins at the top left corner of the file
+6.  LONG biXPelsPerMeter LONG biYPelsPerMeter
+7.
